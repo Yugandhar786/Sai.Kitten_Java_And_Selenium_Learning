@@ -43,7 +43,7 @@ public class String_Methods {
 //		String str1="Welcome to String operations";
 		String st1="Sai Teja";
 		String st2="Sai Teja";
-		String st3="sai teja";
+		String st3="sai teja"; // enter you code here 
 		// Length() method used - it will Return int
 		System.out.println("The Length of the given String is ="+st1.length());
 		//Is Empty() method - it will return boolean 
@@ -54,7 +54,6 @@ public class String_Methods {
 		System.out.println("Is Str1 and Str2 are Equal ? : "+st1.equals(st2));
 		// equalsIgnoreCase will compare both the string without  Case Sensitive
 		System.out.println("Is Str1 and Str2 are Equal?  ignore the Case : "+st1.equalsIgnoreCase(st3));
-		
 		System.out.println("Is Str1 and Str2 are contentEquals ? "+st1.contentEquals(st2));
 		System.out.println("compareTo() = "+st1.compareTo(st3));
 		System.out.println("compareToIgnoreCase()"+st1.compareToIgnoreCase(st3));
