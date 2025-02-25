@@ -3,9 +3,10 @@ package A2interfaceInJava;
 public class Interface_Practice1 {
 	static int a1=1,b1=2;
 
-	static Interface_Practice obj=new Class1();
+	static Interface_Practice obj=new Class2();
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+//		obj.mul();
 		obj.mul();
 		System.out.println("vaule of a1 is = "+a1+" Value of b1 is = "+b1);
 		a1=Interface_Practice.a;
